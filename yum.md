@@ -42,6 +42,7 @@
 - `yum info updates` to view info on updates 
 - you can use `yum info` anywhere you would use `yum list`, you just get more information
 - `yum deplist [package]` to view dependencies of a package
+- `yum whatprovides */[package]` to determine which package provides the given software
 
 ## Get info on groups
 - package groups are preconfigured packages that can be installed or removed at once
